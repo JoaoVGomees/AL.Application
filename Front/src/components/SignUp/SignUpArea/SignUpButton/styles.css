@@ -1,0 +1,31 @@
+.cadastro-botao-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 52px;
+    margin-bottom: 48px;
+}
+
+.cadastro-botao {
+    width: 170px;
+    height: 54px;
+    border-radius: 20px;
+
+    cursor: pointer;
+    border: none;
+
+    background: var(--gradient-blue);
+    color: var(--white);
+    font: var(--text-24);
+
+    transition: 0.5s ease-in-out;
+}
+
+.cadastro-botao:hover {
+    border: solid 3px var(--bright-sun);
+}
+
+.cadastro-botao:active {
+    opacity: 70%;
+}

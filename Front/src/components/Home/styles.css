@@ -1,0 +1,42 @@
+.home-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+
+    background: url("../../assets/Images/Home/home-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode: multiply;
+
+    background-color: var(--deep-koamaru);
+}
+
+.home-header-logo {
+    width: 420px;
+}
+
+.home-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-header-titulo {
+    font: var(--app-title);
+    color: var(--white);
+    border-bottom: solid 10px;
+}
+
+.home-header-intro {
+    margin-top: 50px;
+
+    font: var(--text-32);
+    color: var(--bright-sun);
+}

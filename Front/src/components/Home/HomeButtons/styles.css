@@ -1,0 +1,35 @@
+.home-botoes-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 118px;
+    gap: 34px;
+}
+
+.home-login-botao {
+    align-items: center;
+    cursor: pointer;
+
+    width: 186px;
+    height: 94px;
+    border-radius: 20px;
+
+    background: var(--gradient-purple-blue);
+    color: var(--white);
+    font: var(--text-32);
+}
+
+.home-cadastro-botao {
+    align-items: center;
+    cursor: pointer;
+
+    width: 186px;
+    height: 94px;
+    border-radius: 20px;
+
+    background: var(--gradient-yellow);
+    color: var(--white);
+    font: var(--text-32);
+}

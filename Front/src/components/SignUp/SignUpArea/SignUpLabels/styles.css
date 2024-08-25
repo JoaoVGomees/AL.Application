@@ -1,0 +1,54 @@
+.cadastro-campos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 8px;
+}
+
+.cadastro-label {
+    margin-bottom: 5px;
+
+    color: var(--white);
+    font: var(--text-20);
+}
+
+.cadastro-input {
+    width: 256px;
+    height: 47px;
+    border-radius: 20px;
+    padding-left: 20px;
+
+    border: none;
+
+    background-color: var(--white);
+    font: var(--text-16);
+
+    transition: 0.5s ease-in-out;
+}
+
+.cadastro-input::placeholder {
+    margin-top: 5px;
+    
+    font: var(--text-16);
+    color: var(--fog);
+}
+
+.cadastro-input[type="date"] {
+    width: 256px;
+    height: 47px;
+    border-radius: 20px;
+    padding-left: 20px;
+
+    border: none;
+
+    background-color: var(--white);
+    font: var(--text-16);
+}
+
+.cadastro-input[type="date"]::-webkit-calendar-picker-indicator {
+    margin-right: 15px;
+
+    font: var(--text-16);
+}
