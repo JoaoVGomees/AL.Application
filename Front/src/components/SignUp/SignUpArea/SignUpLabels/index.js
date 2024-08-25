@@ -1,21 +1,19 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./styles.css";
 
-export function CamposCadastro({ title, placeholder, type }) {
-    return(
+export const CamposCadastro = forwardRef(({ title, placeholder, type }, ref) => {
+    return (
         <div className="cadastro-campos">
-            <label
-                className="cadastro-label"
-                htmlFor="cadastro-label"
-            >
+            <label className="cadastro-label" htmlFor={title}>
                 {title}
             </label>
-            <input 
+            <input
                 className="cadastro-input"
-                id="cadastro-label"
+                id={title}
                 placeholder={placeholder}
                 type={type}
+                ref={ref}
             />
         </div>
     );
-}
+});
